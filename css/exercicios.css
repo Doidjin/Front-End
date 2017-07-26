@@ -10,8 +10,19 @@ Se não cabe mais um "caracter" na linha, a "palavra" escorrega pra linha de bai
 */
 
 .secao{
-    width: 33.33%;
-    float: left;
+    width: 100%;
+}
+
+@media(min-width: 600px){
+    .secao{
+        width: 50%;
+    }
+}
+
+@media(min-width: 1000px){
+    .secao{
+        width: 33.33%;
+    }
 }
 
 .mini{
